@@ -1,0 +1,128 @@
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+  }
+body {
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    background-color: rgb(97, 25, 111);
+    background-size: cover;
+}
+
+.cab{
+    margin: 0; 
+    display: flex;
+    background-color: #81c32e;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.cab input[type="text"] {
+    background-color: #81c32e;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(97, 25, 111); 
+}
+.container {
+    width: 100%;
+    margin: 15 auto;
+    position: relative;
+    z-index: 9999;
+}
+
+.chatbox {
+    width: 50%;
+    height:350px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    scroll-behavior: inherit;
+    transform: translate(-50%, 0);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #81c32e;
+    padding: 20px;
+    color: rgb(97, 25, 111);
+    font-size: 20px;
+}
+
+.body {
+    background: rgba(54, 70, 42, 0.904);
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+input {
+    height: 50px;
+    width: 100%;
+}
+
+input[type="text"] {
+    padding: 0 10px;
+}
+
+input[type="submit"] {
+    height: 40px;
+    border: 0;
+    background:  #5d8f21;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(97, 25, 111);
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+input:hover[type="submit"] {
+background-color: #3a5e0f;
+}
+
+.visible {
+    display: block;
+}
+
+.me {
+    width: 55%;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    float: right;
+    text-align: right;
+    display: block;
+}
+
+.bot {
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(97, 25, 111);
+    color: #ffffff;
+    border-radius: 10px;
+    float: left;
+    text-align: left;
+    display: block;
+}
+.rodape1{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+}
+
+.rodape1 img{
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+}
